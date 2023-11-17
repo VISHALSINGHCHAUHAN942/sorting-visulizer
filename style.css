@@ -1,0 +1,27 @@
+#container{
+    height:200px;
+    display: flex;
+    align-items: flex-end;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar{
+    width: 10px;
+    background-color: whitesmoke;
+    margin: 1px;
+}
+.big-container{
+    background-color: black;
+    /* margin-top: 200px; */
+    width: 90%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  
+}
